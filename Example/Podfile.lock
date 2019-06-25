@@ -1,0 +1,109 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - CTMediator (25)
+  - FFDropDownMenu (1.4.5)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - iflyMSC (1.144)
+  - IFMMenu (1.0.3)
+  - JPImageresizerView (0.5.2)
+  - JTCalendar (2.2.4)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - MJExtension (3.0.17)
+  - MJRefresh (3.2.0)
+  - NoteWiseSDK (0.1.0):
+    - AFNetworking
+    - CTMediator
+    - FFDropDownMenu
+    - FMDB
+    - iflyMSC
+    - IFMMenu
+    - JPImageresizerView
+    - JTCalendar
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - SDWebImage (~> 3.8.0)
+    - SGPagingView
+    - SPAlertController
+    - SVProgressHUD
+    - TZImagePickerController
+    - WebViewJavascriptBridge
+  - SDWebImage (3.8.3):
+    - SDWebImage/Core (= 3.8.3)
+  - SDWebImage/Core (3.8.3)
+  - SGPagingView (1.6.1)
+  - SPAlertController (3.0.1)
+  - SVProgressHUD (2.2.5)
+  - TZImagePickerController (3.2.1)
+  - WebViewJavascriptBridge (6.0.3)
+
+DEPENDENCIES:
+  - NoteWiseSDK (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - CTMediator
+    - FFDropDownMenu
+    - FMDB
+    - iflyMSC
+    - IFMMenu
+    - JPImageresizerView
+    - JTCalendar
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - SDWebImage
+    - SGPagingView
+    - SPAlertController
+    - SVProgressHUD
+    - TZImagePickerController
+    - WebViewJavascriptBridge
+
+EXTERNAL SOURCES:
+  NoteWiseSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  FFDropDownMenu: 3dc2b1e47d349687b9d451282a3b6bae3e0e8c7a
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  iflyMSC: 7631cefeb1493b4bf0812a2a9b4fcdc6fe9f782e
+  IFMMenu: f3f6b5d9e16a40140cc3361401a1143c4a35d5c4
+  JPImageresizerView: 9daaa15847bb471f2b939818ba4abd3dd92dc266
+  JTCalendar: dce40e7e278b2d9ce747ca45d7fd369f2fda6f57
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJExtension: 74ec83124a68891619fb7ba9c5c811bbf1691076
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  NoteWiseSDK: c7b73acafcd39d26633b4f2f7f596b72dd224f07
+  SDWebImage: a72e880a8fe0f7fc31efe15aaed443c074d2a80c
+  SGPagingView: 11753f76f2fa9f306d152f33e833f735c0751def
+  SPAlertController: ae6124e93a31f60ef086e749d91506f413c66c79
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TZImagePickerController: bf4c57b98d8707fce41ea6be872414a71c7a8c9d
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+
+PODFILE CHECKSUM: 9d92c05f2f405f3b5cbc0018b2b9b2bb747b7b1b
+
+COCOAPODS: 1.7.1

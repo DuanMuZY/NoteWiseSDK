@@ -1,0 +1,11 @@
+#use_frameworks!
+
+platform :ios, '8.0'
+
+target 'NoteWiseSDK_Example' do
+  pod 'NoteWiseSDK', :path => '../'
+
+  target 'NoteWiseSDK_Tests' do
+    inherit! :search_paths
+  end
+end

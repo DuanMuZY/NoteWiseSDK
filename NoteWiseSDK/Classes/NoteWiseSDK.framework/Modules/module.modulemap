@@ -1,0 +1,6 @@
+framework module NoteWiseSDK {
+  umbrella header "NoteWiseSDK.h"
+
+  export *
+  module * { export * }
+}
